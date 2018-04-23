@@ -1,0 +1,32 @@
+Column Name,Description,Data Type
+YEAR,Year of the Flight Trip,Numeric
+MONTH,Month of the Flight Trip,Numeric
+DAY,Day of the Flight Trip,Numeric
+DAY_OF_WEEK,Day of week of the Flight Trip,Numeric
+AIRLINE,Airline Identifier,String
+FLIGHT_NUMBER,Flight Identifier,Numeric
+TAIL_NUMBER,Aircraft Identifier,String
+ORIGIN_AIRPORT,Starting Airport,String
+DESTINATION_AIRPORT,Destination Airport,String
+SCHEDULED_DEPARTURE,Planned Departure Time,Numeric
+DEPARTURE_TIME,WHEEL_OFF - TAXI_OUT,Numeric
+DEPARTURE_DELAY,Total Delay on Depature,Numeric
+TAXI_OUT,The time point that the aircraft's wheels leave the ground,Numeric 
+WHEELS_OFF,the time duration elapsed between departure from the origin airport gate and wheels off,Numeric
+SCHEDULED_TIME,Planned time amount needed for the flight trip,Numeric
+ELAPSED_TIME,AIR_TIME+TAXI_IN+TAXI_OFF,Numeric
+AIR_TIME,The time duration between wheels_off and wheels_on time,Numeric
+DISTANCE,Distance between two airports,Numeric
+WHEELS_ON,The time point that the aircraft's wheels touch on the ground,Numeric
+TAXI_IN,The time duration elapsed between wheels-on and gate arrival at the destination airport,Numeric
+SCHEDULED_ARRIVAL,Planned arrival time,Numeric
+ARRIVAL_TIME,WHEELS_ON+TAXI_IN,Numeric
+ARRIVAL_DELAY,ARRIVAL_TIME-SCHEDULED_ARRIVAL,Numeric
+DIVERTED,Aircraft landed on airport that out of schedule,Numeric
+CANCELLED,Flight Cancelled (1 = cancelled),Numeric
+CANCELLATION_REASON,Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security,String
+AIR_SYSTEM_DELAY,Delay caused by air system,String
+SECURITY_DELAY,Delay caused by security,String
+AIRLINE_DELAY,Delay caused by the airline,String
+LATE_AIRCRAFT_DELAY,Delay caused by aircraft,String
+WEATHER_DELAY,Delay caused by weather,String
